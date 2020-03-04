@@ -13,7 +13,6 @@ ser = serial.Serial(
 ser.isOpen()
 
 while True:
-    
     #ser.write(b'\x00\xff\x00\x00')
     #ser.write(bytearray([0, 255, 0, 0]))
     ser.write(bytes([0, 255, 0, 0]))
