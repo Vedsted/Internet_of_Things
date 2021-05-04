@@ -12,8 +12,8 @@ def on_message(client, userdata, message):
 
 # Set up connection
 client_name = 'Subscriber'
-topic = '/e9/uptime'
-broker_address = 'localhost'
+topic = '/e9/temperature'
+broker_address = '192.168.43.62'
 port = 1883
 
 client = mqtt.Client(client_name)

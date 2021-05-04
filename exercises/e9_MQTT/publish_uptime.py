@@ -21,8 +21,8 @@ def on_publish(client, userdata, mid):
 
 # Set up connection
 client_name = 'DesktopUptime'
-topic = '/e9/uptime'
-host_name = '192.168.1.115'
+topic = '/e9/temperature'
+host_name = '192.168.43.62'
 port = 1883
 
 client = mqtt.Client(client_name)
